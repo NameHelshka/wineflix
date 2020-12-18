@@ -55,7 +55,7 @@
 
 import NavigationLink from '@/components/NavigationLink.vue';
 import DrinkAgainSection from '@/components/DrinkAgainSection';
-import KeepDrinkingSection from "@/components/KeepDrinkingResult";
+import KeepDrinkingSection from "@/components/KeepDrinkingSection";
 import UserAvatar from "@/components/UserAvatar";
 import LinkButton from "@/components/LinkButton";
 
@@ -104,16 +104,16 @@ export default {
         id: 1,
         isNew: true,
       },{
-        id: 1,
+        id: 2,
         isNew: false,
       }, {
-        id: 1,
+        id: 3,
         isNew: true,
       }, {
-        id: 1,
+        id: 4,
         isNew: true,
       }, {
-        id: 1,
+        id: 5,
         isNew: false,
       }];
     },
